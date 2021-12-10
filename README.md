@@ -1,4 +1,5 @@
 # Nhận diện tiếng việt trong thực tế
+Ví dụ trên google colab: <a href="https://colab.research.google.com/github/thien1892/Recognition_Vietnamese_in_real/blob/main/sample_craft_and_vietocr.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
 <img src = 'https://i.imgur.com/lBJrLOx.jpg'>
 
