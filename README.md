@@ -26,7 +26,11 @@
 1. Clone code và cài thư viện liên quan
 ```
 !git clone https://github.com/thien1892/Recognition_Vietnamese_in_real.git
-!cd Recognition_Vietnamese_in_real/
+```
+```
+cd Recognition_Vietnamese_in_real/
+```
+```
 !pip install -r requirements.txt
 ```
 
