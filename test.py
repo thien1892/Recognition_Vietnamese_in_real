@@ -182,8 +182,8 @@ if __name__ == '__main__':
         filename, file_ext = os.path.splitext(os.path.basename(image_path))
         mask_file = result_folder + filename + '_mask.jpg'
         cv2.imwrite(mask_file, score_text)
-        pre_texts_1 = file_utils.vietocr_text(image[:,:,::-1], polys, detector)
+        pre_texts_1 = vietocr_text(image[:,:,::-1], polys, detector)
         # print(pre_texts_1)
-        file_utils.saveResult(image_path, image[:,:,::-1], polys,pre_texts_ = pre_texts_1, dirname=result_folder )
+        saveResult(image_path, image[:,:,::-1], polys,pre_texts_ = pre_texts_1, dirname=result_folder )
 
     print("elapsed time : {}s".format(time.time() - t))
