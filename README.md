@@ -1,5 +1,8 @@
 # Nhận diện tiếng việt trong thực tế
 
+<img src = 'https://i.imgur.com/lBJrLOx.jpg'>
+
+
 ## Nội dung bài toán:
 - Cho 1 bức ảnh chỉ ra vùng nào có tiếng Việt và chữ đó là gì?
 
@@ -27,7 +30,7 @@
 !pip install -r requirements.txt
 ```
 
-2. Predict kết quả (nếu máy bạn có GPU thay cuda bằng True). Kết quả sé lưu lại trong thư mục **Recognition_Vietnamese_in_real/result**
+2. Predict kết quả (nếu máy bạn có GPU thay cuda bằng True). Kết quả sẽ lưu lại trong thư mục **Recognition_Vietnamese_in_real/result**
 ```python
 !python test.py \
  --trained_model=<path weights trained CRAFT> \
