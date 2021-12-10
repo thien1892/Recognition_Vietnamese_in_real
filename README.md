@@ -12,6 +12,12 @@
 2. Nhận diện vùng tiếng việt đó là chữ gì:
 - Training với VietOCR
 
+## Download pretrain
+
+1. weights trained CRAFT:[click](https://drive.google.com/file/d/1Jsp2v5L69BFkkBnb6f3QSifz7Etd9t9g/view?usp=sharing)
+2. weights trained vietocr:[click](https://drive.google.com/file/d/1SrlJmj5UeWHUIhc94cu8YmsRuTTFWbb7/view?usp=sharing)
+3. config vietocr:[click](https://drive.google.com/file/d/1BAqAcX14TCsc83fOX8jn15_8r-hUs7t8)
+
 ## Code
 
 1. Clone code và cài thư viện liên quan
@@ -21,7 +27,7 @@
 !pip install -r requirements.txt
 ```
 
-2. Predict kết quả (nếu máy bạn có GPU thay cuda bằng True)
+2. Predict kết quả (nếu máy bạn có GPU thay cuda bằng True). Kết quả sé lưu lại trong thư mục **Recognition_Vietnamese_in_real/result**
 ```python
 !python test.py \
  --trained_model=<path weights trained CRAFT> \
