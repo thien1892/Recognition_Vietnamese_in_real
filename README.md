@@ -11,3 +11,22 @@
 - Xác định bằng CRAFT hoặc EAST
 2. Nhận diện vùng tiếng việt đó là chữ gì:
 - Training với VietOCR
+
+## Code
+
+1. Clone code và cài thư viện liên quan
+```
+!git clone https://github.com/thien1892/Recognition_Vietnamese_in_real.git
+!cd Recognition_Vietnamese_in_real/
+!pip install -r requirements.txt
+```
+
+2. Predict kết quả (nếu máy bạn có GPU thay cuda bằng True)
+```python
+!python test.py \
+ --trained_model=<path weights trained CRAFT> \
+ --trained_model_vietocr=<path weights trained vietocr> \
+ --config_vietocr=<path config vietocr> \
+ --test_folder=<path folder img> \
+ --cuda False
+```
